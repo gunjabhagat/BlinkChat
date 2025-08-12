@@ -7,7 +7,7 @@ let app = express()
 const server=http.createServer(app)
 const io=new Server(server,{
     cors:{
-        origin:"https://blinkchat-frontend.onrender.com"
+        origin:"https://blinkchat-frontend-q1hp.onrender.com"
     }
 })
  const userSocketMap ={}
