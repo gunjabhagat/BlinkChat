@@ -14,7 +14,7 @@ const port=process.env.PORT || 5000
 
 
 app.use(cors({
-    origin:"https://blinkchat-frontend.onrender.com",
+    origin:"https://blinkchat-frontend-q1hp.onrender.com",
     credentials:true
 }))
 app.use(express.json())
